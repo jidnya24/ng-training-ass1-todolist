@@ -1,0 +1,14 @@
+.task-completed {
+  text-decoration: line-through;
+  color: #6c757d;
+}
+
+.task-card {
+  margin-bottom: 10px;
+  transition: all 0.3s;
+}
+
+.task-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+} 
